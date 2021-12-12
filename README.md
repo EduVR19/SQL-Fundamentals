@@ -110,10 +110,10 @@ Nota: Si se cambia el tipo de dato desde el gestor de BBDD se pueden eliminar re
 
 3. Realizar una consulta que muestre los productos de la sección “Deportes” cuyo precio esté entre 100 y 200 €. En la consulta solo se mostrarán los campos “Nombre de artículo” y “Precio”.\
    `SELECT NOMBREARTÍCULO, PRECIO FROM PRODUCTOS WHERE PRECIO BETWEEN 100 AND 200`.\
-   ![3](https://i.imgur.com/dc3zsZp.png).\
+   ![3](https://i.imgur.com/dc3zsZp.png).
 4. Realizar una consulta que muestre los productos cuyo país no sea España.\
    `SELECT NOMBREARTÍCULO, PAÍSDEORIGEN FROM PRODUCTOS WHERE PAÍSDEORIGEN != "ESPAÑA"`.\
-   ![4](https://i.imgur.com/UPhJb6R.png)
+   ![4](https://i.imgur.com/UPhJb6R.png).
 5. Realizar una consulta que muestre los artículos españoles de la sección “Deportes” o aquellos cuyo precio sea superior a 350 € independientemente de cual sea su sección o país de origen.\
    ``SELECT NOMBREARTÍCULO, PAÍSDEORIGEN, PRECIO FROM PRODUCTOS WHERE PAÍSDEORIGEN = "ESPAÑA" OR PRECIO > 350``.\
    ![5](https://i.imgur.com/Nneirld.png).
