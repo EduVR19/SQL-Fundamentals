@@ -101,19 +101,25 @@ Nota: Si se cambia el tipo de dato desde el gestor de BBDD se pueden eliminar re
 5. SELECT * FROM PRODUCTOS WHERE FECHA >= "2000-03-01" AND FECHA <= "2000-04-30"
 
 # Ejercicios:
-1. Realizar una consulta que muestre los campos “Empresa” y “Población” de la tabla “Clientes”.
-   1. `SELECT EMPRESA, POBLACIÓN FROM CLIENTES`. ![1](https://i.imgur.com/TmyXY5N.png).
-2. Realizar una consulta que muestre los artículos de la sección “Cerámica”.
-   1. `SELECT SECCION, NOMBREARTÍCULO FROM PRODUCTOS WHERE SECCIÓN = "CERÁMICA"`. ![2](https://i.imgur.com/wIcjbnN.png).
+1. Realizar una consulta que muestre los campos “Empresa” y “Población” de la tabla “Clientes”.\
+   `SELECT EMPRESA, POBLACIÓN FROM CLIENTES`.\ 
+   ![1](https://i.imgur.com/TmyXY5N.png).
+2. Realizar una consulta que muestre los artículos de la sección “Cerámica”.\
+   `SELECT SECCION, NOMBREARTÍCULO FROM PRODUCTOS WHERE SECCIÓN = "CERÁMICA"`.\ 
+   ![2](https://i.imgur.com/wIcjbnN.png).
 
-3. Realizar una consulta que muestre los productos de la sección “Deportes” cuyo precio esté entre 100 y 200 €. En la consulta solo se mostrarán los campos “Nombre de artículo” y “Precio”.
-   1. `SELECT NOMBREARTÍCULO, PRECIO FROM PRODUCTOS WHERE PRECIO BETWEEN 100 AND 200`. ![3](https://i.imgur.com/dc3zsZp.png).
-4. Realizar una consulta que muestre los productos cuyo país no sea España.
-   1. `SELECT NOMBREARTÍCULO, PAÍSDEORIGEN FROM PRODUCTOS WHERE PAÍSDEORIGEN != "ESPAÑA"`. ![4](https://i.imgur.com/UPhJb6R.png)
-5. Realizar una consulta que muestre los artículos españoles de la sección “Deportes” o aquellos cuyo precio sea superior a 350 € independientemente de cual sea su sección o país de origen.
-   1. ``SELECT NOMBREARTÍCULO, PAÍSDEORIGEN, PRECIO FROM PRODUCTOS WHERE PAÍSDEORIGEN = "ESPAÑA" OR PRECIO > 350``. ![5](https://i.imgur.com/Nneirld.png).
-6. Realizar una consulta que muestre los productos cuya fecha esté entre 1/05/2001 y 15/12/2001. En la consulta solo se visualizarán los campos “Nombre de artículo”, “Sección” y “Fecha”.
-   1. ``SELECT NOMBREARTÍCULO, SECCIÓN, FECHA FROM PRODUCTOS WHERE FECHA >= "2001-05-01" AND FECHA <= "2001-12-15"``.
+3. Realizar una consulta que muestre los productos de la sección “Deportes” cuyo precio esté entre 100 y 200 €. En la consulta solo se mostrarán los campos “Nombre de artículo” y “Precio”.\
+   `SELECT NOMBREARTÍCULO, PRECIO FROM PRODUCTOS WHERE PRECIO BETWEEN 100 AND 200`.\
+   ![3](https://i.imgur.com/dc3zsZp.png).\
+4. Realizar una consulta que muestre los productos cuyo país no sea España.\
+   `SELECT NOMBREARTÍCULO, PAÍSDEORIGEN FROM PRODUCTOS WHERE PAÍSDEORIGEN != "ESPAÑA"`.\
+   ![4](https://i.imgur.com/UPhJb6R.png)
+5. Realizar una consulta que muestre los artículos españoles de la sección “Deportes” o aquellos cuyo precio sea superior a 350 € independientemente de cual sea su sección o país de origen.\
+   ``SELECT NOMBREARTÍCULO, PAÍSDEORIGEN, PRECIO FROM PRODUCTOS WHERE PAÍSDEORIGEN = "ESPAÑA" OR PRECIO > 350``.\
+   ![5](https://i.imgur.com/Nneirld.png).
+6. Realizar una consulta que muestre los productos cuya fecha esté entre 1/05/2001 y 15/12/2001. En la consulta solo se visualizarán los campos “Nombre de artículo”, “Sección” y “Fecha”.\
+   ``SELECT NOMBREARTÍCULO, SECCIÓN, FECHA FROM PRODUCTOS WHERE FECHA >= "2001-05-01" AND FECHA <= "2001-12-15"``.\
+   ![6](https://i.imgur.com/1v0W2qH.png)
 
 
 
