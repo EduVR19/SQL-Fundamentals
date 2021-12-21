@@ -102,6 +102,7 @@ Nota: Si se cambia el tipo de dato desde el gestor de BBDD se pueden eliminar re
 4. SELECT * FROM PRODUCTOS WHERE FECHA BETWEEN '2000-03-01' AND '2000-04-20'
 5. SELECT * FROM PRODUCTOS WHERE FECHA >= "2000-03-01" AND FECHA <= "2000-04-30"
 
+
 ## Ejercicios 1:
 1. Realizar una consulta que muestre los campos “Empresa” y “Población” de la tabla “Clientes”.
 
@@ -242,6 +243,7 @@ Nota: Si se cambia el tipo de dato desde el gestor de BBDD se pueden eliminar re
   ![#](https://i.imgur.com/MHOpzMW.png)
 
   Respuesta 2.
+
 
         SELECT 
           SECCIÓN, 
